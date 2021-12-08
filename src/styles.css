@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(232, 235, 234, 0.5);
+}
+
+/* .auth {
+    display: flex;  
+    height: 80vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    background-color: beige;  
+} */
+
+.auth p {
+    padding-top: 1rem;
+}
+
+a{
+    color: rgb(145, 26, 26);
+}
+
+a:hover{
+    color: white;
+
+} 
+
+.card {
+    margin-top: 10%;
+}
+
+.nav-item .fa {
+    font-size: 22px;
+    position: relative;
+}
+
+.nav-item span {
+    font-size: 18px;
+    color: red;
+    position: absolute;
+    top: 1rem;
+    right: 4.5rem;
+}

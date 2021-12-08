@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "burger-mexican",
+      "article": 123432,
+      "price": 300,
+      "rev": 13,
+      "isAvailble" : false,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-1.jfif"
+      
+    },
+    {
+      "id": 2,
+      "name": "burger-suit",
+      "article": 123423,
+      "price": 420,
+      "rev": 22,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-2.jfif"
+    },
+    {
+      "id": 3,
+      "name": "beef burger",
+      "article": 342423,
+      "price": 390,
+      "rev": 15,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-3.jfif"
+    },
+    {
+      "id": 4,
+      "name": "Elk burgers",
+      "article": 100433,
+      "price": 370,
+      "rev": 13,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-4.jfif"
+    },
+    {
+      "id": 5,
+      "name": "Portobello burger",
+      "article": 27733,
+      "price": 910,
+      "rev": 6,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-5.jfif"
+    },
+    {
+      "id": 6,
+      "name": "black been burger",
+      "article": 332224,
+      "price": 870,
+      "rev": 9,
+      "isAvailble" : false,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-6.jfif"
+    },
+    {
+      "id": 7,
+      "name": "burger-suit",
+      "article": 123423,
+      "price": 420,
+      "rev": 22,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-7.jfif"
+    },
+    {
+      "id": 8,
+      "name": "beef burger",
+      "article": 342423,
+      "price": 390,
+      "rev": 15,
+      "isAvailble" : false,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-8.jfif"
+    },
+    {
+      "id": 9,
+      "name": "Elk burgers",
+      "article": 100433,
+      "price": 370,
+      "rev": 13,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-9.jfif"
+    },
+    {
+      "id": 10,
+      "name": "Portobello burger",
+      "article": 27733,
+      "price": 910,
+      "rev": 6,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-10.jfif"
+    },
+    {
+      "id": 11,
+      "name": "black been burger",
+      "article": 332224,
+      "price": 270,
+      "rev": 9,
+      "isAvailble" : false,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-11.jfif"
+    },
+    {
+      "id": 12,
+      "name": "black been burger",
+      "article": 332224,
+      "price": 70,
+      "rev": 9,
+      "isAvailble" : true,
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
+      "image": "product-12.jfif"
+    }
+  ],
+  "users": []
+}

@@ -1,0 +1,53 @@
+
+.my-nav {
+    background-color: rgb(6, 8, 32);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list {
+    margin-left: auto;
+}
+
+.btn {
+    display: none;
+}
+
+a {
+    color: white;
+}
+
+.fas {
+    font-size: 30px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('./../../../assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 660px) {
+    .my-nav {
+      background-color: lightblue;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+  }

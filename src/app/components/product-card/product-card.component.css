@@ -1,0 +1,25 @@
+
+.imag-card{
+    position: relative;
+}
+
+.card-img-top {
+    height: 40vh;
+}
+
+.imag-card a {
+    font-size: 30px;
+    position: absolute;
+    right: 1rem;
+    top: 10px;
+    display: none;
+}
+
+.imag-card:hover a {
+    display: block;
+}
+
+
+.card-img-top:hover {
+    opacity: .5;
+}

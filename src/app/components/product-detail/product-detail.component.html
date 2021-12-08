@@ -1,0 +1,50 @@
+
+
+<a routerLink="/" class="btn btn-primary my-3 px-5" (click)="goHome()" >Back</a>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-2 side-image">
+                <img class="card-image-side my-4" src="../../../assets/img/{{product.image}}" alt="Card image cap">
+                <img class="card-image-side" src="../../../assets/img/{{product.image}}" alt="Card image cap">
+            </div>
+            <div class="col-md-10">
+                <img class="card-img" src="../../../assets/img/{{product.image}}" alt="Card image cap">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <p class="mb-4">
+            <i class="fas fa-star text-warning mx-1"></i>
+            <i class="fas fa-star text-warning mx-1"></i>
+            <i class="fas fa-star text-warning mx-1"></i>
+            <i class="fas fa-star text-warning mx-1"></i>
+            <i class="fas fa-star mx-1"></i>
+            <!-- {{product.rev}} -->
+        </p>
+        <h3 class="my-2">{{product.name | titlecase}}</h3>
+        <!-- <h4> {{product.article}} </h4> -->
+        <h5 class="my-2">Availibility <span [ngClass]="{'isAvailble' : true, 'isAvailble2' : false }"><b> in Stock</b></span></h5>
+        <h1 class="mb-4" >{{product.price | currency : "R "}}</h1>
+        <h5>
+            <b>Specifications</b> <br> <hr>
+        </h5>
+        <h6>
+            {{product.description}}
+        </h6>
+        <div class="button-bottom my-5">
+            <button (click)="decrement()" class="btn btn-danger" style="box-shadow: none; font-size: large;" >-</button>
+            <h3 class="count-size">{{count}}</h3>
+            <button (click)="increment()" class="btn btn-info" style="box-shadow: none; font-size: large;">+</button>
+            <button class="btn btn-success mx-3" style="box-shadow: none;">Add To cart</button>
+        </div>
+    </div>
+</div>
+
+<h3 class="py-4" >You might need this !!!</h3> <br>
+<div class="row">
+    <div *ngFor="let item of products; index as i" class="col-md-4 py-4" >
+        <app-product-card [product]="item" *ngIf="i < 3"></app-product-card>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+
+<div class="row " >
+  <div class="col-md-12" >
+    <app-alert *ngIf="isAlert" [typeColor]="'alert-info'" (onClose)="onAlertclose()" >
+      <p>Thank you for registration.!!!</p>
+    </app-alert>
+  </div>  
+    <div class="col-md-6 mx-auto auth">
+      
+        <div class="card p-3 ">
+         
+            <h3> Register Here </h3>
+        <form [formGroup]="registerForm" (ngSubmit)="registrationForm()"  >
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="text" formControlName="name" class="form-control"  >
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Surname</label>
+                <input type="text" formControlName="surname" class="form-control"  >
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Telephone</label>
+                <input type="text" formControlName="mobile" class="form-control"  >
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" formControlName="password" class="form-control" >
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+          <p>Already have account ? <a routerLink="/login">Login</a> here</p>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="imag-card">
+    <img class="card-img-top" src="../../../assets/img/{{product.image}}" alt="Card image cap">
+    <a href=""><i class="fas fa-heart text-danger"></i></a>
+  </div>
+    <div class="card-body">
+      <h4>{{product.name | titlecase }}</h4>
+      <h6>{{product.price | currency :"R"}} </h6>
+      <a routerLink="/product/{{product.id}}" class="btn btn-primary d-block">BUY NOW</a>
+    </div>
+  </div>
